@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+message Popup {
+	int32 id = 1;
+	string backgroundColorTheme = 2;
+	string message = 3;
+	bool enableCancel = 4;
+	string title = 5;
+}
